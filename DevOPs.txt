@@ -32,3 +32,5 @@ Commands:
                      > this is the 1st step of saving
 
 4. git commit -m "This is my first commit"
+
+5. next step
