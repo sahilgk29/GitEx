@@ -1,0 +1,34 @@
+=========
+DevOps
+=========
+
+> Git :
+ --------
+  - Its a SCM (Source Code Management)
+  - It manages your source code
+  - It manages source code of application on cloud
+  - It keeps track of changes done by anyone, when changes done, 
+    what changes done and suppose you do not want new changes then you 
+    can roll back to previous status easily.
+  - It supports collabration
+    > Suppose team A is in India and another Team B is in USA
+      Team A -> Login
+      Team B -> Registration
+
+      Suppose team A is done with the coding then team A will upload
+      the code on github (by using git) then team B from USA will 
+      start coding from point where Indian team has stopped coding.
+
+
+Commands:
+-----------
+1. get status > to know the status of repository/folder
+                fatal: not a git repository (or any of the parent directories): .git
+
+2. get init   > to make the folder as git repository
+                Initialized empty Git repository in D:/DEMO1/.git/
+
+3. git add hello.txt > to start tracking some untracked files/folder 
+                     > this is the 1st step of saving
+
+4. git commit -m "This is my first commit"
